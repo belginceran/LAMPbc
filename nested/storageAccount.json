@@ -38,7 +38,8 @@
                     "ipRules": [],
                     "virtualNetworkRules": []
                 },
-                "supportsHttpsTrafficOnly": true
+                "supportsHttpsTrafficOnly": true,
+                "allowBlobPublicAccess": false
             }
         },
         {
@@ -73,6 +74,8 @@
                     },
                     "keySource": "Microsoft.Storage"
                 }
+            },
+            "allowBlobPublicAccess": false
             }
         }    
     ],
